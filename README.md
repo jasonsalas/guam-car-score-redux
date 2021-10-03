@@ -1,9 +1,9 @@
 # Guam's CAR Score (a redux)
-## A varation on the original public health metric measuring community spread 
+## A variation on the original public health metric measuring community spread 
 
-The COVID Area (CAR) Score is a metric designed to provide a single-glance, numerical assessment of a community's level of infection due to the coronavirus pandemic. Created by [Dr. Felix Cabrera](https://www.facebook.com/felix.t.cabrera/), the algorithm takes into account (1) incidence of new cases, (2) testing effectiveness, and (3) rate of spread. Based on a simple algebraic formula, the explainability of each day's generated CAR Score is self-evident.
+The COVID Area (CAR) Score is a metric designed to provide a single-glance, numerical assessment of a community's level of infection due to the coronavirus pandemic. Created by [Dr. Felix Cabrera](https://www.facebook.com/felix.t.cabrera/), the algorithm takes into account (1) incidence of new cases, (2) testing effectiveness, and (3) rate of spread. It's not a [black-box algorithm](https://en.wikipedia.org/wiki/Black_box) - based on a simple algebraic formula, the explainability of each day's generated CAR Score is self-evident. 
 
-It's a computed metric that gauges performance based on data - like a Major League pitcher's ERA, not a speculative value like a company's stock price. While it's been seen as a valuable community tool to understanding impact, it's also been widely misunderstood and misinterpreted. 
+It's a computed metric that gauges performance based on data relative to preceding time series - like a Major League pitcher's ERA, not a speculative value like a company's stock price. While it's been seen as a valuable community tool to understanding impact, it's also been misunderstood and misinterpreted. 
 
 ![Original CAR Score formula](https://github.com/jasonsalas/guam-car-score-redux/blob/main/CAR_Score_formula.png?raw=true)
 
